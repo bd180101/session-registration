@@ -1,0 +1,171 @@
+:root {
+  font-family: system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif;
+  line-height: 1.5;
+  color: #1f2328;
+  background: #f6f8fa;
+}
+
+body {
+  margin: 0;
+}
+
+main {
+  max-width: 760px;
+  margin: 0 auto;
+  padding: 24px 16px 64px;
+}
+
+header {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-end;
+  justify-content: space-between;
+  gap: 12px;
+  margin-bottom: 16px;
+}
+
+h1 {
+  margin: 0;
+  font-size: 1.6rem;
+}
+
+label {
+  display: grid;
+  gap: 4px;
+  font-size: 0.9rem;
+  font-weight: 600;
+}
+
+input {
+  font: inherit;
+  font-weight: 400;
+  padding: 6px 8px;
+  border: 1px solid #c8ccd1;
+  border-radius: 6px;
+}
+
+.email {
+  display: grid;
+  gap: 4px;
+}
+
+.email-row {
+  display: flex;
+  gap: 8px;
+}
+
+.email-row input {
+  width: 260px;
+  min-width: 0;
+}
+
+.hint {
+  margin: 0;
+  font-size: 0.85rem;
+  color: #9a6700;
+}
+
+button {
+  font: inherit;
+  padding: 6px 14px;
+  border: 1px solid #1f6feb;
+  border-radius: 6px;
+  background: #1f6feb;
+  color: #fff;
+  cursor: pointer;
+}
+
+button.secondary {
+  background: #fff;
+  color: #1f6feb;
+}
+
+button:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+.sessions {
+  display: grid;
+  gap: 12px;
+}
+
+.session {
+  padding: 16px;
+  border: 1px solid #d0d7de;
+  border-radius: 8px;
+  background: #fff;
+}
+
+.session h2 {
+  margin: 0;
+  font-size: 1.15rem;
+}
+
+.session p {
+  margin: 4px 0;
+}
+
+.starts,
+.empty {
+  color: #57606a;
+}
+
+.seats.full {
+  color: #cf222e;
+  font-weight: 600;
+}
+
+.window.closed,
+.window.not_open {
+  color: #9a6700;
+}
+
+.registered {
+  color: #116329;
+  font-weight: 600;
+}
+
+.actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-top: 12px;
+}
+
+.feedback {
+  margin-top: 10px;
+  padding: 8px 10px;
+  border-radius: 6px;
+  white-space: pre-line;
+}
+
+.feedback.error {
+  background: #ffebe9;
+  color: #82071e;
+}
+
+.feedback.success {
+  background: #dafbe1;
+  color: #116329;
+}
+
+.organizer {
+  margin-top: 32px;
+  padding: 12px 16px;
+  border: 1px solid #d0d7de;
+  border-radius: 8px;
+  background: #fff;
+}
+
+.organizer summary {
+  cursor: pointer;
+  font-weight: 600;
+}
+
+.create {
+  display: grid;
+  gap: 12px;
+  max-width: 360px;
+  margin-top: 12px;
+}
